@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  margin: 0;
+  font-family: nexa;
+  font-size: px;
+}
+h1{
+  font-size: 45px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.bg-image{
+  background-image: url(billie-eilish-happier-than-ever-pop-album-pop-music-pop-3840x2160-6518.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 170%;
+  filter: blur(3px);
+  }
+.lyrics{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-35%);
+  z-index: 2;
+  width: 45%;
+  padding: 40px 0;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  font-weight: bold;
+  border: 15px inset #fff;
+}
+ 
+/* SAD */
+.verse1{
+  font-family: 'Courier New', Courier, monospace;
+  color: bisque;
+}
+
+/*HOPE*/
+.verse2{
+  font-family:forte;
+  color: powderblue;
+}
+
+/*despairing*/
+.verse3{
+  font-family:Arabic Typesetting;
+  color: darkgray;
+}
+
+/* DEPRESSED*/
+.verse4{
+    font-family:Century Gothic;
+    color:lavender;
+}
+
+/* regretful */
+.verse5{
+  font-family:Castellar;
+  color: peachpuff;
+}
+
+/* sorrowful*/
+.verse6{
+  font-family:Harrington;
+  color: plum;
+}
+
+/*unhappy*/
+.verse7{
+  font-family:Ink Free;
+  color: rosybrown;
+}
+
+/*downhearted*/
+.verse8{
+  font-family:Segoe Script;
+  color: cyan;
+}
+
